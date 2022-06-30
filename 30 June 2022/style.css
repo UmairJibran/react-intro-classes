@@ -1,0 +1,16 @@
+h1 {
+  border: 1px solid #123525;
+}
+
+p {
+  color: #c64d15;
+}
+
+.para1 {
+  color: #41a253;
+}
+
+.para2 {
+  color: #4f41a2;
+  font-size: larger;
+}
