@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Elements</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="example.com">Example</a> <br />
+    <a href="test.com">Test</a> <br />
+
+    <button onclick="displayTimeAndDate()">
+      Click me to display date and time
+    </button>
+
+    <div id="date"></div>
+
+    <button onclick="updateStyle()">Click me to update style</button>
+  </body>
+
+  <script>
+    function displayTimeAndDate() {
+      const date = new Date();
+      const displayElement = document.getElementById('date');
+      displayElement.innerHTML = date;
+    }
+    function updateStyle() {
+      document.getElementById('date').style.color = 'red';
+    }
+  </script>
+</html>
