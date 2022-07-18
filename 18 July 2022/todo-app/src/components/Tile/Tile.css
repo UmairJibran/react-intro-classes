@@ -1,0 +1,9 @@
+.todo-tile {
+  margin: auto;
+  border: 2px solid rgba(67, 145, 126, 0.453);
+  width: 30%;
+  border-radius: 10px;
+  background-color: rgba(111, 143, 135, 0.453);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
